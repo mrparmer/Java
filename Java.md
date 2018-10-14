@@ -33,3 +33,5 @@ myString = myString + ", and this is how you add more.";
 System.out.println("myString equals: " + myString);
 ```
 
+## Methods
+
