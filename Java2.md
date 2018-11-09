@@ -1,1 +1,0 @@
-variables created inside a code block cannot be accessed outside of the block. AKA scope

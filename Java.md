@@ -33,3 +33,14 @@ myString = myString + ", and this is how you add more.";
 System.out.println("myString equals: " + myString);
 ```
 
+## Operators
+
+​	Operators are special symbols that perform specific operations on 1, 2, or 3 operands then return a result. Mathematical symbols are operators
+
+varName += value is short cut for setting varName = varName +-*/% value.
+
+### Conditionals
+
+​	if( && ) both conditions must be true
+
+variables created inside a code block cannot be accessed outside of the block. AKA scope
