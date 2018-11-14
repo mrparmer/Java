@@ -44,3 +44,50 @@ varName += value is short cut for setting varName = varName +-*/% value.
 ​	if( && ) both conditions must be true
 
 variables created inside a code block cannot be accessed outside of the block. AKA scope
+
+## Switch Statements
+
+For use when needing to use many if/else statements. Matter of style. Less flexible, can only test one variables, whereas if/else can test different variables.
+
+```java
+int switchValue = 1;
+switch(switchValue){
+    case 1:
+        System.out.println("Value was 1");
+        break;
+    case 2:
+        System.out.println("Value was 2");
+        break;
+    case 3: case 4: case 5:
+        System.out.println("Was a 3, 4, or 5");
+        break;
+    default:
+        System.out.println("Was not one or two, three, four, or five");
+        break;
+}
+```
+
+```java
+char switchChar = 'e';
+switch (switchChar){
+    case 'a':case 'b':case 'c':case 'd':case 'e':
+        System.out.println(switchChar + " was found.");
+        break;
+    default:
+        System.out.println("No valid value was input");
+}
+```
+
+```java
+String month = "january";
+switch (month.toLowerCase()){
+    case "january":
+        System.out.println("January");
+        break;
+    case "june":
+        System.out.println("June");
+        break;
+    default:
+        System.out.println("Not sure");
+}
+```
